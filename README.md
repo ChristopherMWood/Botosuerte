@@ -7,4 +7,9 @@ OAUTH=<value here>
 CHANNEL=<value here>
 ```
 
-```npm install``` in your local directory then run ```node bot.js```
+```npm install``` in your local directory then run ```npm start``` to launch the electron app
+
+## Building Production
+Electron forge builds the app to all platforms using the following commands
+- ```electron-forge package```
+- ```electron-forge make```
